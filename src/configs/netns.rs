@@ -18,7 +18,7 @@ impl<'a> Default for NetnsConfig<'a> {
     fn default() -> Self {
         NetnsConfig {
             format: "[$symbol \\[$name\\]]($style) ",
-            symbol: "️🛜",
+            symbol: "🛜",
             style: "blue bold dimmed",
             disabled: false,
         }
